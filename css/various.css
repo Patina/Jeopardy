@@ -7,10 +7,11 @@ section {
 	/*background-color: tan;
 	border: 1px solid white;*/
 }
-input {
-	height: 50px;
-	width: 248px;
+#table1 {
+	border-collapse: separate; 
+	border-spacing: 1px;
 }
+
 
 /*table settings*/
 table {

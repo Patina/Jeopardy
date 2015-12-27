@@ -1,4 +1,6 @@
-
+function myFunction() {
+    document.getElementById("input").innerHTML = "value";
+}
 
 /*$(document).ready(function() {
    $('div').click(function() {
@@ -636,6 +638,9 @@ $(document).ready(function() {
      });
  });
 
+
+
  /*end of fifth row*/
+
  
 
