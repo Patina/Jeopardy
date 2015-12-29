@@ -1,6 +1,4 @@
-function myFunction() {
-    document.getElementById("input").innerHTML = "value";
-}
+
 
 /*$(document).ready(function() {
    $('div').click(function() {
@@ -641,6 +639,14 @@ $(document).ready(function() {
 
 
  /*end of fifth row*/
+
+ function setCat1Name() {
+  document.getElementsByClassName("cat1")[0].textContent = document.getElementById("myInput").value;
+  document.getElementById("test").innerHTML = "Enter Answer for $100";
+
+}
+
+
 
  
 

@@ -8,24 +8,26 @@
 		
 		<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 		<script src="js/various.js"></script>
-		<link rel='stylesheet' type='text/css' href='css/various.css'/>				
+		<link rel='stylesheet' type='text/css' href='css/various.css'/>			
 	</head>
+
+	
 
 	<body>
 		<section>
 
-	
-		
-
-		<table id="table1">
+	<table id="table1">
 				<tr>
-					<td>
-						<form>
-						<input type="text" placeholder="Category 1 Name">
-						
-						<button onclick="myFunction()">Submit</button>
-						</form>
+    				<td>
+    					<p id="test">Enter name of category</P>
+    					<form>
+						<input id="myInput" type="text" placeholder="">
+        				<button type='button' onclick="setCat1Name()">Submit</button>
+        				
+					</form>
+
 					</td>
+		
 					<td>
 						<input type="text" placeholder="Category 2 Name">
 						<input type="submit" value="Submit">
