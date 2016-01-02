@@ -17,21 +17,71 @@
 		<section>
 
 	<table id="table1">
-				<tr>
-    				<td>
-    					<p id="test">Enter name of category</P>
-    					<form>
-						<input id="myInput" type="text" placeholder="">
-        				<button type='button' onclick="setCat1Name()">Submit</button>
-        				
-					</form>
+		<tr>
+			<!--for category 1!-->
+    		<td>
+    			<p id="test">Enter name of category</P>
+    		<form>
+				<input id="categoryName1" type="text" placeholder="">
+        		<button type='button' onclick="setCat1Name()">Submit</button>
 
-					</td>
+        		<p id="test2">Enter Answer For $100</P>
+    			
+				<input id="answer$100" type="text" placeholder="">
+        		<button id="button2" type='button' onclick="setCell1()">Submit</button>
+
+        		<!--<p id="test3">Enter Question for $100</P>!--> <input id="question$100" type="text" placeholder="">
+        		<button id="button2" type='button' onclick="setCell1()">Submit</button>
+        		
+        		<input id="answer$200" type="text" placeholder="">
+        		<button id="button2" type='button' onclick="setCell2()">Submit</button>
+
+        		<input id="question$200" type="text" placeholder="">
+        		<button id="button2" type='button' onclick="setCell2()">Submit</button>
+
+        		<input id="answer$300" type="text" placeholder="">
+        		<button id="button2" type='button' onclick="setCell3()">Submit</button>
+
+        		<input id="question$300" type="text" placeholder="">
+        		<button id="button2" type='button' onclick="setCell3()">Submit</button>
+
+        		<input id="answer$400" type="text" placeholder="">
+        		<button id="button2" type='button' onclick="setCell4()">Submit</button>
+
+        		<input id="question$400" type="text" placeholder="">
+        		<button id="button2" type='button' onclick="setCell4()">Submit</button>
+
+        		<input id="answer$500" type="text" placeholder="">
+        		<button id="button2" type='button' onclick="setCell5()">Submit</button>
+
+        		<input id="question$500" type="text" placeholder="">
+        		<button id="button2" type='button' onclick="setCell5()">Submit</button>
+			</form>
+			</td><!--end category 1!-->
 		
-					<td>
-						<input type="text" placeholder="Category 2 Name">
-						<input type="submit" value="Submit">
+			<td>
+				<input type="text" placeholder="">
+				<input type="button" onclick="setCat2Name()">Submit</button>
 					</td>
+
+				<p id="test2">Enter name of category two</P>
+			<form>
+				<input id="categoryName2" type="text" placeholder="">
+        		<button type='button' onclick="setCat2Name()">Submit</button>
+
+        </td>
+
+
+
+
+
+
+
+
+
+
+
+
 					<td>
 						<input type="text" placeholder="Category 3 Name">
 						<input type="submit" value="Submit">
@@ -48,6 +98,7 @@
 						<input type="text" placeholder="Category 6 Name">
 						<input type="submit" value="Submit">
 					</td>
+				</form>
 				</tr>
 			</table>	
 
@@ -65,8 +116,8 @@
 		<tr>
 			<td>
 				<p id="amount1">$100</p> 
-				<p id="answer1">Answer<p>  
-				<p id="question1">Question<p>
+				<p class="answer1">Answer<p>  
+				<p class="question1">Question<p>
 			</td>
 			<td>
 				<p id="amount2">$100</p> 
@@ -98,8 +149,8 @@
 		<tr>
 			<td>
 				<p id="amount7">$200</p> 
-				<p id="answer7">Answer<p>
-				<p id="question7">Question<p>  			
+				<p class="answer7">Answer<p>
+				<p class="question7">Question<p>  			
 			</td>
 			<td>
 				<p id="amount8">$200</p> 
@@ -132,8 +183,8 @@
 		<tr>
 			<td>
 				<p id="amount13">$300</p>
-				<p id="answer13">Answer<p> 
-				<p id="question13">Question<p>  				
+				<p class="answer13">Answer<p> 
+				<p class="question13">Question<p>  				
 			</td>
 			<td>
 				<p id="amount14">$300</p> 
@@ -164,8 +215,8 @@
 		<tr>
 			<td>
 				<p id="amount19">$400</p> 
-				<p id="answer19">Answer<p>
-				<p id="question19">Question<p>  
+				<p class="answer19">Answer<p>
+				<p class="question19">Question<p>  
 			</td>
 			<td>
 				<p id="amount20">$400</p>
@@ -196,8 +247,8 @@
 		</tr>
 			<td>
 				<p id="amount25">$500</p> 
-				<p id="answer25">Answer<p>
-				<p id="question25">Question<p>  				
+				<p class="answer25">Answer<p>
+				<p class="question25">Question<p>  				
 			</td>
 			<td>
 				<p id="amount26">$500</p> 

@@ -27,6 +27,20 @@ td {
 	background-color: red;
 	border: 1px solid white;
 }
+input {
+}
+/*hides button and input for first question and answer*/
+#test2 {
+	display: none;
+}
+#categoryName2 {
+	display: none;
+}
+#button2 {
+	/*display: none;*/
+}
+/*end botton2 hidden*/
+
 /*end table settings*/
 
 #answer1, #answer2, #answer3, #answer4, #answer5, #answer6, 

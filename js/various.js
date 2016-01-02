@@ -636,17 +636,83 @@ $(document).ready(function() {
      });
  });
 
-
-
  /*end of fifth row*/
+/*sets cell question and answers for first category*/
+ /*function setCat1Name() {
+  document.getElementsByClassName("cat1")[0].textContent = document.getElementById("categoryName1").value;
+	document.getElementById("test").innerHTML = "Enter Answer for $100";
+}
+function setCell1() {
+  	document.getElementsByClassName("answer1")[0].textContent = document.getElementById("answer$100").value;
+  	document.getElementById("test").innerHTML = "Enter Question for $100";
+  	document.getElementsByClassName("question1")[0].textContent = document.getElementById("question$100").value;
 
- function setCat1Name() {
-  document.getElementsByClassName("cat1")[0].textContent = document.getElementById("myInput").value;
-  document.getElementById("test").innerHTML = "Enter Answer for $100";
+}
+function setCell2() {
+  	document.getElementsByClassName("answer7")[0].textContent = document.getElementById("answer$200").value;
+  	document.getElementsByClassName("question7")[0].textContent = document.getElementById("question$200").value;
+}
+function setCell3() {
+  	document.getElementsByClassName("answer13")[0].textContent = document.getElementById("answer$300").value;
+  	document.getElementsByClassName("question13")[0].textContent = document.getElementById("question$300").value;
+}
+function setCell4() {
+  	document.getElementsByClassName("answer19")[0].textContent = document.getElementById("answer$400").value;
+  	document.getElementsByClassName("question19")[0].textContent = document.getElementById("question$400").value;
+}
+function setCell5() {
+  	document.getElementsByClassName("answer25")[0].textContent = document.getElementById("answer$500").value;
+  	document.getElementsByClassName("question25")[0].textContent = document.getElementById("question$500").value;
+}
+/*ends cell question and answers for first category*/
 
+/*sets cell question and answers for second category*/
+ 
+function setCat2Name() {
+  document.getElementsByClassName("cat2")[0].textContent = document.getElementById("categoryName2").value;
+	document.getElementById("test2").innerHTML = "Enter Answer for $100";
 }
 
 
+
+/*function setCell6() {
+  	document.getElementsByClassName("answer1")[0].textContent = document.getElementById("answer$100").value;
+  	document.getElementById("test").innerHTML = "Enter Question for $100";
+  	document.getElementsByClassName("question1")[0].textContent = document.getElementById("question$100").value;
+
+}
+function setCell7() {
+  	document.getElementsByClassName("answer7")[0].textContent = document.getElementById("answer$200").value;
+  	document.getElementsByClassName("question7")[0].textContent = document.getElementById("question$200").value;
+}
+function setCel8() {
+  	document.getElementsByClassName("answer13")[0].textContent = document.getElementById("answer$300").value;
+  	document.getElementsByClassName("question13")[0].textContent = document.getElementById("question$300").value;
+}
+function setCell9() {
+  	document.getElementsByClassName("answer19")[0].textContent = document.getElementById("answer$400").value;
+  	document.getElementsByClassName("question19")[0].textContent = document.getElementById("question$400").value;
+}
+function setCell10() {
+  	document.getElementsByClassName("answer25")[0].textContent = document.getElementById("answer$500").value;
+  	document.getElementsByClassName("question25")[0].textContent = document.getElementById("question$500").value;
+}
+/*ends cell question and answers for second category*/
+
+
+
+
+//function setCell() {
+  //document.getElementsByClassName("cat1")[0].textContent = document.getElementById("myInput").value;
+  //document.getElementById("answer1").innerHTML = "The First Answer";
+    //document.getElementById("question1").innerHTML = "The First Question";
+
+
+//}
+
+
+
+  //document.getElementById("test").innerHTML = "Enter Question for $100";
 
  
 
