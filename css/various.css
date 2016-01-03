@@ -29,20 +29,27 @@ td {
 }
 input {
 }
+/*end table settings*/
+
 /*hides button and input for first question and answer*/
 #test2 {
 	display: none;
 }
-#categoryName2 {
+/*#categoryName2 {
 	display: none;
-}
+}*/
 #button2 {
 	/*display: none;*/
 }
 /*end botton2 hidden*/
 
-/*end table settings*/
 
+/*hides the submit buttons category 1 until ready*/
+#div1, #div2, #div3, #div4, #div5, #div6, #div7, #div8, #div9, #div10 {
+	display: none;
+}
+
+/*hides the answers until ready*/
 #answer1, #answer2, #answer3, #answer4, #answer5, #answer6, 
 #answer7, #answer8, #answer9, #answer10, #answer11, #answer12, 
 #answer13, #answer14, #answer15, #answer16, #answer17, #answer18, 
@@ -52,6 +59,7 @@ input {
 	display: none;
 }
 
+/*hides the questions until ready*/
 #question1, #question2, #question3, #question4, #question5,
 #question6, #question7, #question8, #question9, #question10,
 #question11, #question12, #question13, #question14, #question15, 
