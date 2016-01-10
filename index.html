@@ -11,68 +11,73 @@
 		<link rel='stylesheet' type='text/css' href='css/various.css'/>			
 	</head>
 
-	<body>
-		<section>
 
+	<body onload="hideButtons()">
+		<section>
 	<table id="table1">
 		<tr>
 			<!--start category 1!-->
     		<td>
-    			<p class="test">Enter Category</P>
+    			<p id="test">Enter Category</P>
     		<form>
+
+    			<div id="category1">
 				<input id="categoryName1" type="text" placeholder="">
         		<button type='button' onclick="setCat1Name()">Submit</button>
+        		</div>
 
-        		<p id="test2">Enter Answer For $100</P>
+        		<!--<p id="test2">Enter Answer For $100</P>!-->
 
-    			<div id="div1">
+    			<div id="div1" class="div1">
 				<input id="answer$100" type="text" placeholder="">
-        		<button id="button2" type='button' onclick="setCell1()">Submit</button>
+        		<button id="button2" type='button' onclick="setCell1a()">Submit</button>
         		</div>
 
-				<div id="div2">
+				<div id="div2" class="div2">
         		<input id="question$100" type="text" placeholder="">
-        		<button id="button2" type='button' onclick="setCell1()">Submit</button>
+        		<button id="button3" type='button' onclick="setCell1q()">Submit</button>
 				</div>
+
+
         		
-        		<div id="div3">
+        		<div id="div3" class="div3">
         		<input id="answer$200" type="text" placeholder="">
-        		<button id="button2" type='button' onclick="setCell2()">Submit</button>
+        		<button id="button4" type='button' onclick="setCell2a()">Submit</button>
         		</div>
 
-        		<div id="div4">
+        		<div id="div4" class="div4">
         		<input id="question$200" type="text" placeholder="">
-        		<button id="button2" type='button' onclick="setCell2()">Submit</button>
+        		<button id="button5" type='button' onclick="setCell2q()">Submit</button>
         		</div>
 
-				<div id="div5">
+				<div id="div5" class="div5">
         		<input id="answer$300" type="text" placeholder="">
-        		<button id="button2" type='button' onclick="setCell3()">Submit</button>
+        		<button id="button6" type='button' onclick="setCell3a()">Submit</button>
         		</div>
 
-				<div id="div6">
+				<div id="div6" class="div6">
         		<input id="question$300" type="text" placeholder="">
-        		<button id="button2" type='button' onclick="setCell3()">Submit</button>
+        		<button id="button7" type='button' onclick="setCell3q()">Submit</button>
         		</div>
 
-				<div id="div7">
+				<div id="div7" class="div7">
         		<input id="answer$400" type="text" placeholder="">
-        		<button id="button2" type='button' onclick="setCell4()">Submit</button>
+        		<button id="button8" type='button' onclick="setCell4a()">Submit</button>
         		</div>
 
-				<div id="div8">
+				<div id="div8" class="div8">
         		<input id="question$400" type="text" placeholder="">
-        		<button id="button2" type='button' onclick="setCell4()">Submit</button>
+        		<button id="button9" type='button' onclick="setCell4q()">Submit</button>
         		</div>
 
-				<div id="div9">
+				<div id="div9" class="div9">
         		<input id="answer$500" type="text" placeholder="">
-        		<button id="button2" type='button' onclick="setCell5()">Submit</button>
+        		<button id="button10" type='button' onclick="setCell5a()">Submit</button>
         		</div>
 
-				<div id="div10">
+				<div id="div10" class="div10">
         		<input id="question$500" type="text" placeholder="">
-        		<button id="button2" type='button' onclick="setCell5()">Submit</button>
+        		<button id="button11" type='button' onclick="setCell5q()">Submit</button>
 			</form>
 			</td><!--end category 1!-->
 			
@@ -80,40 +85,60 @@
 			<td>
     			<p id="test3">Enter Category</P>
     		<form>
-				
+				<div id="category2">
 				<input id="categoryName2" type="text" placeholder="">
 				<button type='button' onclick="setCat2Name()">Submit</button>
-    			
+				</div>
+
+				
+    			<div id="div11" class="div11">
 				<input id="cat2ans$100" type="text" placeholder="">
-        		<button id="button2" type='button' onclick="setCell6()">Submit</button>
+        		<button id="button2" type='button' onclick="setCell6a()">Submit</button>
+        		</div>
 
+				<div id="div12" class="div12">
         		<input id="cat2ques$100" type="text" placeholder="">
-        		<button id="button2" type='button' onclick="setCell6()">Submit</button>
-        		
+        		<button id="button2" type='button' onclick="setCell6q()">Submit</button>
+        		</div>
+
+        		<div id="div13" class="div13">
         		<input id="cat2ans$200" type="text" placeholder="">
-        		<button id="button2" type='button' onclick="setCell7()">Submit</button>
+        		<button id="button2" type='button' onclick="setCell7a()">Submit</button>
+        		</div>
 
+        		<div id="div14" class="div14">
         		<input id="cat2ques$200" type="text" placeholder="">
-        		<button id="button2" type='button' onclick="setCell7()">Submit</button>
+        		<button id="button2" type='button' onclick="setCell7q()">Submit</button>
+        		</div>
 
-
+				<div id="div15" class="div15">
         		<input id="cat2ans$300" type="text" placeholder="">
-        		<button id="button2" type='button' onclick="setCell8()">Submit</button>
+        		<button id="button2" type='button' onclick="setCell8a()">Submit</button>
+        		</div>
 
+				<div id="div16" class="div16">
         		<input id="cat2ques$300" type="text" placeholder="">
-        		<button id="button2" type='button' onclick="setCell8()">Submit</button>
+        		<button id="button2" type='button' onclick="setCell8q()">Submit</button>
+        		</div>
 
+				<div id="div17" class="div17">
         		<input id="cat2ans$400" type="text" placeholder="">
-        		<button id="button2" type='button' onclick="setCell9()">Submit</button>
+        		<button id="button2" type='button' onclick="setCell9a()">Submit</button>
+        		</div>
 
+				<div id="div18" class="div18">
         		<input id="cat2ques$400" type="text" placeholder="">
-        		<button id="button2" type='button' onclick="setCell9()">Submit</button>
+        		<button id="button2" type='button' onclick="setCell9q()">Submit</button>
+        		</div>
 
+        		<div id="div19" class="div19">
         		<input id="cat2ans$500" type="text" placeholder="">
-        		<button id="button2" type='button' onclick="setCell10()">Submit</button>
+        		<button id="button2" type='button' onclick="setCell10a()">Submit</button>
+        		</div>
 
+        		<div id="div20" class="div20">
         		<input id="cat2ques$500" type="text" placeholder="">
-        		<button id="button2" type='button' onclick="setCell10()">Submit</button>
+        		<button id="button2" type='button' onclick="setCell10q()">Submit</button>
         	</form>	
 			</td>
 						
@@ -122,39 +147,62 @@
 			<td>
     			<p class="test4">Enter Category</P>
     		<form>
+    			<div id="category3">
 				<input id="categoryName3" type="text" placeholder="">
         		<button type='button' onclick="setCat3Name()">Submit</button>
+        		</div>
 
         		<p id="test2">Enter Answer For $100</P>
+
+				<div id="div21" class="div21">
     			<input id="cat3ans$100" type="text" placeholder="">
-        		<button id="button2" type='button' onclick="setCell11()">Submit</button>
+        		<button id="button2" type='button' onclick="setCell11a()">Submit</button>
+        		</div>
 
+				<div id="div22" class="div22">
         		<input id="cat3ques$100" type="text" placeholder="">
-        		<button id="button2" type='button' onclick="setCell11()">Submit</button>
-        		
+        		<button id="button2" type='button' onclick="setCell11q()">Submit</button>
+        		</div>
+
+        		<div id="div23" class="div23">
         		<input id="cat3ans$200" type="text" placeholder="">
-        		<button id="button2" type='button' onclick="setCell12()">Submit</button>
+        		<button id="button2" type='button' onclick="setCell12a()">Submit</button>
+        		</div>
 
+				<div id="div24" class="div24">
         		<input id="cat3ques$200" type="text" placeholder="">
-        		<button id="button2" type='button' onclick="setCell12()">Submit</button>
+        		<button id="button2" type='button' onclick="setCell12q()">Submit</button>
+        		</div>
 
+				<div id="div25" class="div25">
         		<input id="cat3ans$300" type="text" placeholder="">
-        		<button id="button2" type='button' onclick="setCell13()">Submit</button>
+        		<button id="button2" type='button' onclick="setCell13a()">Submit</button>
+        		</div>
 
+				<div id="div26" class="div26">
         		<input id="cat3ques$300" type="text" placeholder="">
-        		<button id="button2" type='button' onclick="setCell13()">Submit</button>
+        		<button id="button2" type='button' onclick="setCell13q()">Submit</button>
+        		</div>
 
+				<div id="div27" class="div27">
         		<input id="cat3ans$400" type="text" placeholder="">
-        		<button id="button2" type='button' onclick="setCell14()">Submit</button>
+        		<button id="button2" type='button' onclick="setCell14a()">Submit</button>
+        		</div>
 
+				<div id="div28" class="div28">
         		<input id="cat3ques$400" type="text" placeholder="">
-        		<button id="button2" type='button' onclick="setCell14()">Submit</button>
+        		<button id="button2" type='button' onclick="setCell14q()">Submit</button>
+        		</div>
 
+				<div id="div29" class="div29">
         		<input id="cat3ans$500" type="text" placeholder="">
-        		<button id="button2" type='button' onclick="setCell15()">Submit</button>
+        		<button id="button2" type='button' onclick="setCell15a()">Submit</button>
+        		</div>
 
+				<div id="div30" class="div30">
         		<input id="cat3ques$500" type="text" placeholder="">
-        		<button id="button2" type='button' onclick="setCell15()">Submit</button>
+        		<button id="button2" type='button' onclick="setCell15q()">Submit</button>
+        		</div>
 				
 			</form>
 			</td>
@@ -163,39 +211,61 @@
     		<td>
     			<p class="test5">Enter Category</P>
     		<form>
+    			<div id="category4">
 				<input id="categoryName4" type="text" placeholder="">
         		<button type='button' onclick="setCat4Name()">Submit</button>
+        		</div>
 
         		<!--<p id="test5">Enter Answer For $100</P>!-->
+        		<div id="div31" class="div31">
     			<input id="cat4ans$100" type="text" placeholder="">
-        		<button id="button2" type='button' onclick="setCell16()">Submit</button>
+        		<button id="button2" type='button' onclick="setCell16a()">Submit</button>
+        		</div>
 
+				<div id="div32" class="div32">
         		<input id="cat4ques$100" type="text" placeholder="">
-        		<button id="button2" type='button' onclick="setCell16()">Submit</button>
-        		
+        		<button id="button2" type='button' onclick="setCell16q()">Submit</button>
+        		</div>
+
+        		<div id="div33" class="div33">
         		<input id="cat4ans$200" type="text" placeholder="">
-        		<button id="button2" type='button' onclick="setCell17()">Submit</button>
+        		<button id="button2" type='button' onclick="setCell17a()">Submit</button>
+        		</div>
 
+				<div id="div34" class="div34">
         		<input id="cat4ques$200" type="text" placeholder="">
-        		<button id="button2" type='button' onclick="setCell17()">Submit</button>
+        		<button id="button2" type='button' onclick="setCell17q()">Submit</button>
+        		</div>
 
+				<div id="div35" class="div35">
         		<input id="cat4ans$300" type="text" placeholder="">
-        		<button id="button2" type='button' onclick="setCell18()">Submit</button>
+        		<button id="button2" type='button' onclick="setCell18a()">Submit</button>
+        		</div>
 
+				<div id="div36" class="div36">
         		<input id="cat4ques$300" type="text" placeholder="">
-        		<button id="button2" type='button' onclick="setCell18()">Submit</button>
+        		<button id="button2" type='button' onclick="setCell18q()">Submit</button>
+        		</div>
 
+				<div id="div37" class="div37">
         		<input id="cat4ans$400" type="text" placeholder="">
-        		<button id="button2" type='button' onclick="setCell19()">Submit</button>
+        		<button id="button2" type='button' onclick="setCell19a()">Submit</button>
+        		</div>
 
+				<div id="div38" class="div38">
         		<input id="cat4ques$400" type="text" placeholder="">
-        		<button id="button2" type='button' onclick="setCell19()">Submit</button>
+        		<button id="button2" type='button' onclick="setCell19q()">Submit</button>
+        		</div>
 
+				<div id="div39" class="div39">
         		<input id="cat4ans$500" type="text" placeholder="">
-        		<button id="button2" type='button' onclick="setCell20()">Submit</button>
+        		<button id="button2" type='button' onclick="setCell20a()">Submit</button>
+        		</div>
 
+				<div id="div40" class="div40">
         		<input id="cat4ques$500" type="text" placeholder="">
-        		<button id="button2" type='button' onclick="setCell20()">Submit</button>
+        		<button id="button2" type='button' onclick="setCell20q()">Submit</button>
+        		</div>
 				
 			</form>
 			</td>
@@ -205,39 +275,63 @@
     		<td>
     			<p class="test6">Enter Category</P>
     		<form>
+    			<div id="category5">
 				<input id="categoryName5" type="text" placeholder="">
         		<button type='button' onclick="setCat5Name()">Submit</button>
+        		</div>
 
+
+		
         		<!--<p id="test5">Enter Answer For $100</P>!-->
+        		<div id="div41" class="div41">
     			<input id="cat5ans$100" type="text" placeholder="">
-        		<button id="button2" type='button' onclick="setCell21()">Submit</button>
+        		<button id="button2" type='button' onclick="setCell21a()">Submit</button>
+        		</div>
 
+				<div id="div42" class="div42">
         		<input id="cat5ques$100" type="text" placeholder="">
-        		<button id="button2" type='button' onclick="setCell21()">Submit</button>
-        		
+        		<button id="button2" type='button' onclick="setCell21q()">Submit</button>
+        		</div>
+
+        		<div id="div43" class="div43">
         		<input id="cat5ans$200" type="text" placeholder="">
-        		<button id="button2" type='button' onclick="setCell22()">Submit</button>
+        		<button id="button2" type='button' onclick="setCell22a()">Submit</button>
+        		</div>
 
+				<div id="div44" class="div44">
         		<input id="cat5ques$200" type="text" placeholder="">
-        		<button id="button2" type='button' onclick="setCell22()">Submit</button>
-
+        		<button id="button2" type='button' onclick="setCell22q()">Submit</button>
+        		</div>
+				
+				<div id="div45" class="div45">
         		<input id="cat5ans$300" type="text" placeholder="">
-        		<button id="button2" type='button' onclick="setCell23()">Submit</button>
+        		<button id="button2" type='button' onclick="setCell23a()">Submit</button>
+        		</div>
 
+				<div id="div46" class="div46">
         		<input id="cat5ques$300" type="text" placeholder="">
-        		<button id="button2" type='button' onclick="setCell23()">Submit</button>
-
+        		<button id="button2" type='button' onclick="setCell23q()">Submit</button>
+        		</div>
+				
+				<div id="div47" class="div47">
         		<input id="cat5ans$400" type="text" placeholder="">
-        		<button id="button2" type='button' onclick="setCell24()">Submit</button>
+        		<button id="button2" type='button' onclick="setCell24a()">Submit</button>
+        		</div>
 
+				<div id="div48" class="div48">
         		<input id="cat5ques$400" type="text" placeholder="">
-        		<button id="button2" type='button' onclick="setCell24()">Submit</button>
+        		<button id="button2" type='button' onclick="setCell24q()">Submit</button>
+        		</div>
 
+				<div id="div49" class="div49">
         		<input id="cat5ans$500" type="text" placeholder="">
-        		<button id="button2" type='button' onclick="setCell25()">Submit</button>
-
+        		<button id="button2" type='button' onclick="setCell25a()">Submit</button>
+        		</div>
+				
+				<div id="div50" class="div50">
         		<input id="cat5ques$500" type="text" placeholder="">
-        		<button id="button2" type='button' onclick="setCell25()">Submit</button>
+        		<button id="button2" type='button' onclick="setCell25q()">Submit</button>
+        		</div>
 				
 			</form>
 			</td>
@@ -246,39 +340,61 @@
 <td>
     			<p class="test7">Enter Category</P>
     		<form>
+    			<div id="category6">
 				<input id="categoryName6" type="text" placeholder="">
         		<button type='button' onclick="setCat6Name()">Submit</button>
+        	</div>
 
         		<!--<p id="test5">Enter Answer For $100</P>!-->
+        		<div id="div51" class="div51">
     			<input id="cat6ans$100" type="text" placeholder="">
-        		<button id="button2" type='button' onclick="setCell26()">Submit</button>
+        		<button id="button2" type='button' onclick="setCell26a()">Submit</button>
+        		</div>
 
+				<div id="div52" class="div52">
         		<input id="cat6ques$100" type="text" placeholder="">
-        		<button id="button2" type='button' onclick="setCell26()">Submit</button>
+        		<button id="button2" type='button' onclick="setCell26q()">Submit</button>
+        		</div>
         		
+        		<div id="div53" class="div53">
         		<input id="cat6ans$200" type="text" placeholder="">
-        		<button id="button2" type='button' onclick="setCell27()">Submit</button>
+        		<button id="button2" type='button' onclick="setCell27a()">Submit</button>
+        		</div>
 
+				<div id="div54" class="div54">
         		<input id="cat6ques$200" type="text" placeholder="">
-        		<button id="button2" type='button' onclick="setCell27()">Submit</button>
+        		<button id="button2" type='button' onclick="setCell27q()">Submit</button>
+        		</div>
 
+				<div id="div55" class="div55">
         		<input id="cat6ans$300" type="text" placeholder="">
-        		<button id="button2" type='button' onclick="setCell28()">Submit</button>
+        		<button id="button2" type='button' onclick="setCell28a()">Submit</button>
+        		</div>
 
+				<div id="div56" class="div56">
         		<input id="cat6ques$300" type="text" placeholder="">
-        		<button id="button2" type='button' onclick="setCell28()">Submit</button>
+        		<button id="button2" type='button' onclick="setCell28q()">Submit</button>
+        		</div>
 
+        		<div id="div57" class="div57">
         		<input id="cat6ans$400" type="text" placeholder="">
-        		<button id="button2" type='button' onclick="setCell29()">Submit</button>
+        		<button id="button2" type='button' onclick="setCell29a()">Submit</button>
+        		</div>
 
+				<div id="div58" class="div58">
         		<input id="cat6ques$400" type="text" placeholder="">
-        		<button id="button2" type='button' onclick="setCell29()">Submit</button>
-
+        		<button id="button2" type='button' onclick="setCell29q()">Submit</button>
+        		</div>
+	
+				<div id="div59" class="div59">
         		<input id="cat6ans$500" type="text" placeholder="">
-        		<button id="button2" type='button' onclick="setCell30()">Submit</button>
+        		<button id="button2" type='button' onclick="setCell30a()">Submit</button>
+        		</div>
 
+        		<div id="div60" class="div60">
         		<input id="cat6ques$500" type="text" placeholder="">
-        		<button id="button2" type='button' onclick="setCell30()">Submit</button>				
+        		<button id="button2" type='button' onclick="setCell30q()">Submit</button>
+        		</div>				
 			</form>
 			</td>
     		<!--end category 6!-->
@@ -461,13 +577,7 @@
 	</table>
 	</section>
 						
-	<!--<section>
-		<div class="box">
-			<p class="amount">Dollar Amount</p>
-			<p class="questions">Questions Go Here<p>
-			<p class="answers">Answers Go Here<p>
-		</div>
-	</section>!-->
+	
 		
 	</body>
 	</html>
