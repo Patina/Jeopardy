@@ -347,26 +347,27 @@
 
 
  
- function hideButtons() {
-    $('.div1, .div2, .div3, .div4, .div5, .div6, .div7, .div8, .div9, .div10').hide();   
+ 
+function hideButtons() {
+    $('.div1, .div2, .div3, .div4, .div5, .div6, .div7, .div8, .div9, .div10, .div11, .div12, .div13, .div14, .div15, .div16, .div17, .div18, .div19, .div20, .div21, .div22, .div23, .div24, .div25, .div26, .div27, .div28, .div29, .div30, .div31, .div32, .div33, .div34, .div35, .div36, .div37, .div38, .div39, .div40, .div41, .div42, .div43, .div44, .div45, .div46, .div47, .div48, .div49, .div50, .div51, .div52, .div53, .div54, .div55, .div56, .div57, .div58, .div59, .div60').hide();   
 }
 
-//, .div2, .div3, .div4, .div5, .div6, .div7, .div8, .div9, .div10, 
-     // .div11, .div12, .div13, .div14, .div15, .div16, .div17, .div18, .div19, 
-     // .div20
+
 
  /*sets cell question and answers for first category*/
  function setCat1Name() {   
   document.getElementsByClassName("cat1")[0].textContent = document.getElementById("categoryName1").value;
     $('#category1').hide();
+    $('.div1').show();
   document.getElementById("test").innerHTML = "Enter Answer for $100";
     
 
 }
 function setCell1a() {
     document.getElementsByClassName("answer1")[0].textContent = document.getElementById("answer$100").value;
-    $('.div1').show();
+    
     $('.div1').hide();
+    $('.div2').show();
     //document.getElementById("test").innerHTML = "Enter Question for $100";
     //document.getElementsByClassName("question1")[0].textContent = document.getElementById("question$100").value;
     //$('.div2').hide();
